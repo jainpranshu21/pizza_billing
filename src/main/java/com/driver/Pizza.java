@@ -22,10 +22,12 @@ public class Pizza {
         if(this.isVeg){
             basePrice=300;
             toppingPrice=70;
+            this.price+=basePrice;
         }
         else{
             basePrice=400;
             toppingPrice=120;
+            this.price+=basePrice;
         }
         cheesePrice=80;
         paperBagPrice=20;
